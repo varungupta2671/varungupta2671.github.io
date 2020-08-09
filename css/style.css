@@ -1,12 +1,9 @@
-/* DESIGN BY MOHAMED MAGDY >>>>>>> https://themeforest.net/user/mego120/* * * * * * * * * * * * * * * * ** ^^^ Body Container ^^^ ** -------------------------------** 1 - Header Section **--------------------------------** 2 - Services Section **--------------------------------** 3 - About Me Section **--------------------------------** 4 - My Skills Section **--------------------------------** 5 - My Works Section **--------------------------------** 6 - Resume Section **--------------------------------** 7 - Clinets Section **--------------------------------** 8 - Contacts Section ** * * * * * * * * * * * * * * * */
-
-
 /*======== Start Global body ========*/
 
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #27292ee6;
-    padding: 28px 28px 0;
+    padding: 15px;
     overflow: hidden
 }
 
@@ -240,7 +237,7 @@ nav .navbar-nav .nav-link {
 /*========== Start Header ========*/
 
 header {
-    padding: 15px 0 55px
+    padding: 15px 0;
 }
 
 header .priev-bottom {
@@ -258,13 +255,11 @@ header .priev-bottom i {
 }
 
 header .image-header {
-    /* margin: 108px auto 37px; */
-    margin: 62px auto 37px;
+    margin: 38px auto;
 }
 
 header .text-header {
-    /* margin: 188px auto 0; */
-    margin: 142px auto 0;
+    margin: 122px auto 0;
 }
 
 header .image-header img {
@@ -961,7 +956,8 @@ footer .icon-style {
 }
 
 .rights {
-    font-size: 13px
+    font-size: 13px;
+    padding: 5px;
 }
 
 .rights a {
@@ -977,9 +973,9 @@ footer .icon-style {
 
 
 /*=========== Start Loading ===========*/
-
+/* 
 .loading-over {
-    background: #333;
+    background: rgba(51, 51, 51, 0.212);
     color: #fff;
     position: fixed;
     top: 0;
@@ -1044,7 +1040,7 @@ footer .icon-style {
         transform: scale(1.0);
         -webkit-transform: scale(1.0);
     }
-}
+} */
 
 
 /*=========== End Loading ===========*/
@@ -1121,7 +1117,7 @@ footer .icon-style {
         text-align: center
     }
     header .image-header {
-        margin: 64px auto 37px
+        margin: 12px auto;
     }
     header .image-header img,
     header .image-header .icons-head {
@@ -1224,7 +1220,7 @@ footer .icon-style {
 
 @media (max-width:575px) {
     header .text-header h1 {
-        line-height: 55px;
+        line-height: 38px;
         padding: 0;
         width: auto
     }
