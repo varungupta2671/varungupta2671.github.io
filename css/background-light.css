@@ -50,7 +50,7 @@ header .text-header h1,
 }
 
 body {
-	background-color: #dbdbdb
+	background-color: #fff;
 }
 
 section,
@@ -125,13 +125,13 @@ header .text-header h1,
 .skills .progress-bar span:after {
 	border-bottom-color: #635c5c
 }
-
+/* 
 .body-site {
 	-webkit-box-shadow: 0 0 8px 2px #cfcfcfcc;
 	-moz-box-shadow: 0 0 8px 2px #cfcfcfcc;
 	-o-box-shadow: 0 0 8px 2px #cfcfcfcc;
 	box-shadow: 0 0 8px 2px #cfcfcfcc
-}
+} */
 
 .about .bnt-about a {
 	-webkit-box-shadow: 1px 2px 3px 0 #635c5c4d;
